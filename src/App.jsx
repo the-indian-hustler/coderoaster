@@ -29,14 +29,14 @@ function App() {
 
   const getRoast = (name, followers, repos) => {
     const roasts = [
-      `${name}, behenchod kewal ${followers} followers le ke evverest chadne chala hai bsdk sharam karle saale  chuda rha hai kya aur repo dekh le apni kewal ${repos} repositories hai teri behenchod behenchod behenchod sasur duniya barbad ho jayegi tere jaise mc github par account bnayege to`,
-      `abe oye bsd wale ${name}. sale tu vahi hai na to readme file change karke open source ka contributor banta hai . sale ${followers} followers lekar maiyaa chuda rha hai sharam kar le thuk ke dub ja usi me open source hai tere bap ka office nhi bhatt. behenchod skills seekh pahle fir idhar aana ma chudane`,
-      `${name} saale ek bat bta nam to sahi rakh leta kam se kam profile ka vese bhi kam tera madarchodo wala hai aur pta chal rha hai youtube ke tutorial teep teep ke code likhta hai par nhi ye bhi galat bcoz tu behenchod ${repos} repo lekar maiya chuda rha hai`,
-      `oye bsd wale ${name}, pahle to apna ye jhaantu sa profile name change kar aur sun saale followers to tere utne bhi nhi hai jitne tere scrotum me testes behenchod sharam karle madarchod thoda repo bnaya kar chudai center nhi hai ye chudne aa jata hai `,
-      `oye bsdwale ${name}, github open source ke liye hota hai maa chudane ke liye nhi uske liye kahi aur jaa sale ${followers} followers hai tere aur repo ke nam par goo hai kewal aur sale tatti code likha hai sab tune gandagi hag di hai opensource ke nam par zero hai bsd wale `,
+        `${name}, with ${followers} followers, you're boldly exploring GitHub like a toddler with a new toy. Maybe expand your horizons beyond those ${repos} repositories.`,
+        `Ah, ${name}, changing readme files and calling it open-source contribution with ${followers} followers? It's like decorating a cardboard castle. Let's aim higher.`,
+        `${name}, let's address the elephant in the room: your profile name needs a makeover. Also, those ${repos} repositories seem to be longing for a touch of innovation.`,
+        `Hey ${name}, before anything else, perhaps a profile name upgrade is in order. With ${followers} followers, it's time to unleash some real coding prowess into those repositories.`,
+        `Hey ${name}, GitHub isn't just a follower-counting contest. With ${followers} followers and basic repos, let's elevate your presence from mere spectator to true innovator.`,
     ];
     return roasts[Math.floor(Math.random() * roasts.length)];
-  };
+};
 
   return (
     <div className="App">
