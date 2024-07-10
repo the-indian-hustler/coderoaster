@@ -26,7 +26,7 @@ function App() {
     }
     setLoading(false);
   };
-
+//the below array is edited in your favour ☠️☠️😂😂 earlier it was disrespecting
   const getRoast = (name, followers, repos) => {
     const roasts = [
         `${name}, with ${followers} followers, you're boldly exploring GitHub like a toddler with a new toy. Maybe expand your horizons beyond those ${repos} repositories.`,
